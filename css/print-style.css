@@ -1,0 +1,101 @@
+body{
+	font-family: 'DejaVu Sans';
+	margin:0;
+	padding:50px 20px;
+} 
+html{
+	margin:0;
+	padding:0;
+}
+header, footer{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index:9556222222;
+    padding-right:20px;
+    padding-left:20px; 
+}
+header{
+    height: 40px;
+    top:0;
+
+}
+footer{
+    height: 40px;
+    bottom:0;
+    text-align: right;
+}
+header p, header span{
+	margin:0;
+	line-height: 25px;
+}
+footer p{
+	margin:0;
+	line-height: 30px;
+}
+main{
+	margin-top: 0px;
+	margin-bottom: 0px; 
+}
+.leftimage{
+	width:40%;
+	float: left; 
+}
+.leftimage img{
+	max-width: 100%;
+
+}
+.rightimage{
+	width: 60%;
+	float: right;
+}
+.innerrightimage h2{
+	margin-top: 0;
+}
+
+.fullwdithimag h3{
+	margin-top: 0;
+}
+.innerrightimage{
+	margin-left: 20px;
+}
+.upperdivs{
+	display: inline-block;
+	width: 100%;
+
+
+}
+.fullwdithimag{
+	display: block;
+	width: 100%;
+}
+.spacea{
+	display: block;
+	height: 5px;
+	clear: both;
+}
+.spacear{
+	display: block;
+	height: 25px;
+	clear: both;
+}
+.main{
+	border-bottom: 1px solid #000;
+	display: block;
+	width: 100%;
+}
+.metacustl>div{
+	/*padding-top: 5px;*/
+}
+.metacustl th{
+	text-align: left;
+}
+.main_gallery_image{
+	margin-top: 20px;
+}
+.smallimage_img{
+	width: 100px;
+	display: inline-block;
+	padding-right: 3px;
+	padding-top: 5px;
+}
